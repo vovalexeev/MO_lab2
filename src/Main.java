@@ -100,7 +100,7 @@ public class Main {
             System.out.println("Function(x1, x2, x3, x4, x5) = " + function(coefficient[0], coefficient[1], coefficient[2], coefficient[3], coefficient[4]));
         }
 
-        if (count == 4){
+        /*if (count == 4){
             for(int u = 0; u < 5; u++){
                 for(int j = 0; j < 10; j++){
                     System.out.print(d[u][j] + " ");
@@ -108,7 +108,7 @@ public class Main {
                 System.out.println();
             }
             return;
-        }
+        }*/
     }
     public static void main(String args[]){
         simplexMethod(d);
